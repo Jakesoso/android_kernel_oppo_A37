@@ -1,0 +1,7 @@
+config MTK_TCS3490
+        tristate "TCS3490 Sensor Driver"
+        help
+          This option enables support for the ams TCS3490 Sensor Driver.
+
+          To compile this driver as a module, choose M here. The module will
+          be called tcs3490.

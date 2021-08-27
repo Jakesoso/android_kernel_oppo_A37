@@ -1,0 +1,4 @@
+
+config MTK_LIS3DH
+	bool "LIS3DH for MediaTek package"
+	default n

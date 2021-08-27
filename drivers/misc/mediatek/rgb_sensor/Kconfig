@@ -1,0 +1,20 @@
+config CUSTOM_KERNEL_RGB_SENSOR
+	bool "CUSTOM_KERNEL_RGB_SENSOR"
+	help
+	  RGB sensor driver to mesure the RGB light 
+
+config MTK_TCS3490
+        tristate "TCS3490 Sensor Driver"
+        help
+          This option enables support for the TCS3490 Sensor Driver.
+
+          To compile this driver as a module, choose M here. The module will
+          be called tcs3490.
+
+config MTK_NXU8010
+        tristate "NXU8010 Sensor Driver"
+        help
+          This option enables support for the NXU8010 Sensor Driver.
+
+          To compile this driver as a module, choose M here. The module will
+          be called NXU8010.

@@ -1,0 +1,4 @@
+
+config MTK_BH1745
+	bool "BH1745 for MediaTek package"
+	default n

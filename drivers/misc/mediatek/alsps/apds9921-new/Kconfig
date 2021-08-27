@@ -1,0 +1,4 @@
+
+config MTK_APDS9921_NEW
+	bool "APDS9921_NEW for MediaTek package"
+	default n

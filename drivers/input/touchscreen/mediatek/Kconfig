@@ -1,0 +1,19 @@
+#
+# Touchscreen driver configuration
+#
+menuconfig INPUT_TOUCHSCREEN
+	bool "Touchscreens"
+	help
+	  Say Y here, and a list of supported touchscreens will be displayed.
+	  This option doesn't affect the kernel.
+
+	  If unsure, say Y.
+
+if INPUT_TOUCHSCREEN
+
+source "drivers/input/touchscreen/mediatek/GT1151/Kconfig"
+source "drivers/input/touchscreen/mediatek/oppo_16011_gt915/Kconfig"
+source "drivers/input/touchscreen/mediatek/oppo_15127_s3203/Kconfig"
+source "drivers/input/touchscreen/mediatek/oppo_15131_ft5336/Kconfig"
+source "drivers/input/touchscreen/mediatek/oppo_16021_gt5688/Kconfig"
+endif

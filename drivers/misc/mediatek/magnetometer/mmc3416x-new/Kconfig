@@ -1,0 +1,4 @@
+
+config MTK_MMC3416X_NEW
+	bool "MTK_MMC3416X_NEW for MediaTek package"
+	default n

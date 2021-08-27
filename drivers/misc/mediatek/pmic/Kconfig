@@ -1,0 +1,22 @@
+# PMIC driver
+
+# New SW architecture for Mediatek PMIC driver
+config MTK_PMIC_NEW_ARCH
+	tristate "MediaTek Power Management Unit Driver"
+	default n
+	---help---
+	  Mediatek PMIC Driver
+
+config MTK_PMIC_CHIP_MT6353
+	tristate "MediaTek Power Management Unit Driver"
+	default n
+	---help---
+	  Mediatek PMIC Driver
+
+if MTK_LDVT
+config MTK_LDVT_PMIC
+	bool "MediaTek PMIC driver for LDVT"
+	default y
+	---help---
+	  MediaTek PMIC driver for LDVT
+endif

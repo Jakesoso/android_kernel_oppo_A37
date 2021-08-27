@@ -1,0 +1,13 @@
+config MTK_SPM
+	bool "Enable MTK SPM suspend function"
+	depends on SUSPEND
+	default y if SUSPEND
+	help
+	  Enable MTK SPM suspend function.
+
+config MTK_SPM_USE_EXT_BUCK
+	bool "MTK SPM use ext buck"
+	default n
+	help
+	  Vmd1 is controled by an ext buck. If you want to use ext buck for
+	  Vmd1, set y here, or it dependeds on the efuse value.

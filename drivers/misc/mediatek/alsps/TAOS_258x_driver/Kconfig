@@ -1,0 +1,4 @@
+
+config MTK_TSL258x
+	bool "TSL258x for MediaTek package"
+	default n

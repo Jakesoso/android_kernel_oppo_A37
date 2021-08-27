@@ -1,0 +1,4 @@
+
+config MTK_PA22x
+	bool "PA22x for MediaTek package"
+	default n
