@@ -67,7 +67,7 @@ void (*enable_aggressive_segmentation_fn)(bool);
 
 #include "../oppo_vooc.h"
 #include "../oppo_gauge.h"
-#include <oppo_bq24196.h>
+#include "oppo_bq24196.h"
 #include "oppo_bq2202a.h"
 
 static struct oppo_chg_chip *the_chip = NULL;
